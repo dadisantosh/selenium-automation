@@ -3,7 +3,7 @@
 <suite name="Suite" >
   <test name="Test">
     <classes>
-      <class name="TestNG.ZP_scripts"/>
+      <class name="ZP_scripts"/>
 	  
 
     </classes>
