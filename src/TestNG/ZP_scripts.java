@@ -20,7 +20,8 @@ public class ZP_scripts {
 	public void before() throws Exception
 	{
 		System.out.println("before");
-		driver=LaunchBrowser.execute(driver, report); 	
+		driver=LaunchBrowser.execute(driver, report);
+                System.out.println("webdriver executed"); 	
 	}
 	@Test(priority=1)
 	public void testcase1() throws InterruptedException
