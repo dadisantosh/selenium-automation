@@ -22,7 +22,7 @@ public class LaunchBrowser {
 		ExtentTest logger = report.startTest("Launch Browser");
 		//ExtentTest logger = report.startTest("Launch Browser");
 		
-		System.setProperty("webdriver.chrome.driver", "/usr/bin/chromedriver");
+		System.setProperty("webdriver.chrome.driver", "./usr/bin/chromedriver");
 		driver = new ChromeDriver();
 		logger.log(LogStatus.INFO, "Driver intiantiated");
 
